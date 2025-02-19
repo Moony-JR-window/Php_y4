@@ -8,4 +8,12 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: 'localhost',
+        port: 5173,  // Change this if needed
+        strictPort: true,
+    }
 });
+
+
+// php artisan serve
